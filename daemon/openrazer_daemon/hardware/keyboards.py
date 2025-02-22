@@ -1607,6 +1607,7 @@ class RazerBladeEarly2020Base(_MacroKeyboard):
 
     DEVICE_IMAGE = "https://assets2.razerzone.com/images/blade-15/blade-15-base-model-spec-image-v2.png"
 
+
 class RazerBladeLate2020Base(_MacroKeyboard):
     """
     Class for the Razer Blade Late 2020 Base
@@ -1615,7 +1616,6 @@ class RazerBladeLate2020Base(_MacroKeyboard):
 
     USB_VID = 0x1532
     USB_PID = 0x0268  # USB_DEVICE_ID_RAZER_BLADE_LATE_2020_BASE
-
     METHODS = ['get_device_type_keyboard', 'set_static_effect', 'set_spectrum_effect',
                'set_reactive_effect', 'set_none_effect', 'set_breath_random_effect', 'set_breath_single_effect',
                'set_breath_dual_effect']
